@@ -1,0 +1,41 @@
+﻿body {
+	font-family: Segoe UI, arial, sans-serif;
+	background-color: #00005D;
+}
+
+#wrapper {
+	background-color: #CFECEC;
+	width: 50%;
+	min-width:600px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 100%;
+	margin: 0 auto -4em;
+	clear: both;
+	box-shadow: 10px 10px 5px rgb(147,146,163);
+}
+
+h1 { font-size: 1.2em; }
+
+.movie {
+	background-color: rgb(0, 176, 240);
+	margin-left: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: smaller;
+	color:  #ffffff; 
+}
+
+#movie-list { width: 90% }
+
+img.thumb { 
+	height: 90px;
+	padding-left: 10px; 
+	-ms-transform:rotate(-10deg); /* IE 9 */
+	-moz-transform:rotate(-10deg); /* Firefox */
+	-webkit-transform:rotate(-10deg); /* Safari and Chrome */
+	-o-transform:rotate(-10deg); /* Opera */
+	transform:rotate(-10deg);
+}
